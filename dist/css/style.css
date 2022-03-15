@@ -1255,11 +1255,11 @@ body {
   }
 
   .header__button,
-  .header__el:not(._mob) {
+  .header .header__el:not(._mob) {
     display: none;
   }
 
-  .burger .header__el:not(._mob) {
+  .burger .header__el {
     display: block;
   }
 }
