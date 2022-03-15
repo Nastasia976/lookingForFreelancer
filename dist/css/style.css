@@ -1255,12 +1255,8 @@ body {
   }
 
   .header__button,
-  .header .header__el:not(._mob) {
+  .header ._pk {
     display: none;
-  }
-
-  .burger .header__el {
-    display: block;
   }
 }
 
